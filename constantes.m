@@ -9,11 +9,4 @@ G= 4 + 1/8; %[in]
 P= 4409.25; %[lb]
 
 %Variable constantes de medidas según A [B C K]
-medidasA20 = [78 30 96.75];     %[in]
-medidasA22 = [84 30 108.75];    %[in]
-medidasA24 = [90 42 120.25];    %[in]
-medidasA26 = [96 42 132.25];    %[in]
-medidasA28 = [108 42 144.25];   %[in]
-medidasA30 = [120 36 156.25];   %[in]
-
-A = input('Ingrese A: ');
+matrizMedidasA = [20 22 24 26 28 30;78 84 90 96 108 120;30 30 42 42 42 36;96.75 108.75 120.25 132.25 144.25 156.25];
